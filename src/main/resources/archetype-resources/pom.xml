@@ -5,7 +5,7 @@
   <artifactId>${artifactId}</artifactId>
   <packaging>war</packaging>
   <version>${version}</version>
-  <name>Jbake</name>
+  <name>jbake</name>
   <url>http://maven.apache.org</url>
   <build>
     <finalName>jbake</finalName>
