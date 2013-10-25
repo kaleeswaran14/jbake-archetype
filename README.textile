@@ -1,0 +1,7 @@
+h1. jbake-archetype
+
+Jbake Archetype with default template.
+
+Bake your site with @mvn jbake:inline@
+
+It internally uses @jbake-maven-plugin@ https://github.com/ingenieux/jbake-maven-plugin

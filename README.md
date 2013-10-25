@@ -1,4 +1,0 @@
-jbake-archetype
-===============
-
-Jbake Archetype
