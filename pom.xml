@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>jbake</groupId>
-  <artifactId>Jbake-archetype</artifactId>
+  <artifactId>jbake-archetype</artifactId>
   <version>1.0</version>
   <packaging>maven-archetype</packaging>
 
@@ -29,4 +29,22 @@
   </build>
 
   <url>http://maven.apache.org</url>
+
+  <properties>
+    <internal.release.repo.path>file:///E:/work/JUG/JBake/MavenRepo/mvn-repo/releases/</internal.release.repo.path>
+    <internal.snapshot.repo.path>file:///E:/work/JUG/JBake/MavenRepo/mvn-repo/snapshots/</internal.snapshot.repo.path>
+  </properties>
+
+  <distributionManagement>
+    <repository>
+        <id>release-repo</id>
+        <name>Release Repository</name>
+        <url>${internal.release.repo.path}</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshot-repo</id>
+        <name>Snapshot Repository</name>
+        <url>${internal.snapshot.repo.path}</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
